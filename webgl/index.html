@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <title>WebGL scatch</title>
+</head>
+<body>
+    <link data-trunk rel="rust" href="Cargo.toml" data-wasm-opt="z" data-bin="webgl"/>
+
+    <canvas id="gl-canvas" width="640" height="480"></canvas>
+    <script type="module">
+        addEventListener("TrunkApplicationStarted", (event) => {
+
+        });
+    </script>
+
+</body>
+
+</html>
